@@ -3,6 +3,10 @@ body {
   text-align: center;
 }
 
+a {
+  color: white;
+}
+
 #header {
   background-image: url(/resources/images/the-flatiron-building.png)
 }
@@ -10,6 +14,7 @@ body {
 #header ul {
   list-style: none;
   font-size: 18px;
+  padding: 0;
 }
 
 #header ul li {
@@ -18,7 +23,6 @@ body {
 
 #header h1 {
   font-size: 70px;
-  color: white;
 }
 
 #process h1 {
@@ -36,12 +40,10 @@ body {
 #process h2 {
   background-image: url(/resources/images/the-flatiron-building.png);
   font-size: 23px;
-  color: white;
 }
 
 #footer {
   background-color: dimgray;
-  color: white;
   text-align: left;
 }
 
@@ -50,10 +52,12 @@ body {
   display: inline;
 }
 
-a {
-  color: white;
-}
+
 
 .bold {
   font-weight: bold;
+}
+
+.white {
+  color: white;
 }
