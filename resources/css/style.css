@@ -18,18 +18,15 @@ body {
 
 #header h1 {
   font-size: 70px;
-  font-weight: bold;
   color: white;
 }
 
 #process h1 {
   font-size: 32px;
-  font-weight: bold;
 }
 
 #process h3 {
   font-size: 23px;
-  font-weight: bold;
 }
 
 #process p {
@@ -39,7 +36,6 @@ body {
 #process h2 {
   background-image: url(/resources/images/the-flatiron-building.png);
   font-size: 23px;
-  font-weight: bold;
   color: white;
 }
 
@@ -56,4 +52,8 @@ body {
 
 a {
   color: white;
+}
+
+.bold {
+  font-weight: bold;
 }
